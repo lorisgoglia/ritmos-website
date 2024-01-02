@@ -35,6 +35,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+This is the domain of this project deployed on Vercel: [Open the project](ritmos-website.vercel.app
+)
+
 ## Accessibility
 
 This is a campletely accessible website. In some pages there are added interactive contents and elements from the Chakra UI Toolkit. 
