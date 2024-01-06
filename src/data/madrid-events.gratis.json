@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name": "Summer Jazz Festival",
+        "image": "summer-jazz-festival.jpg",
+        "hours": "19:00 - 23:00",
+        "date": "2023-07-12",
+        "location": "Downtown Jazz Club",
+        "city": "Madrid"
+    },
+    
+    {
+        "id": 3,
+        "name": "Classical Music Evening",
+        "image": "classical-music-evening.jpg",
+        "hours": "18:00 - 22:00",
+        "date": "2023-07-20",
+        "location": "Symphony Hall",
+        "city": "Madrid"
+    },
+    
+    {
+        "id": 5,
+        "name": "Folk Music Festival",
+        "image": "folk-music-festival.jpg",
+        "hours": "16:00 - 20:00",
+        "date": "2023-07-30",
+        "location": "Open Air Theatre",
+        "city": "Madrid"
+    },
+    {
+        "id": 7,
+        "name": "Noche de Salsa y Ritmos Latinos",
+        "image": "noche-salsa-ritmos-latinos.jpg",
+        "hours": "20:00 - 01:00",
+        "date": "2023-05-20",
+        "location": "Sala Caracol",
+        "city": "Madrid"
+    },
+    {
+        "id": 8,
+        "name": "Espectáculo de Música Folk",
+        "image": "espectaculo-musica-folk.jpg",
+        "hours": "16:00 - 18:00",
+        "date": "2023-05-25",
+        "location": "El Matadero",
+        "city": "Madrid"
+    },
+    
+    {
+        "id": 10,
+        "name": "Velada de Blues y Jazz",
+        "image": "velada-blues-jazz.jpg",
+        "hours": "21:00 - 00:00",
+        "date": "2023-06-05",
+        "location": "Berlin Cafe",
+        "city": "Madrid"
+    }
+]
+    

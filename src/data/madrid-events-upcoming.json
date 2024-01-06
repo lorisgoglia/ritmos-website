@@ -1,0 +1,38 @@
+[
+    {
+        "id": 6,
+        "name": "Recital de Piano Clásico",
+        "image": "recital-piano-clasico.jpg",
+        "hours": "17:00 - 19:00",
+        "date": "2023-05-15",
+        "location": "Teatro Real",
+        "city": "Madrid"
+    },
+    {
+        "id": 2,
+        "name": "Rock Mania Concert",
+        "image": "rock-mania-concert.jpg",
+        "hours": "20:00 - 02:00",
+        "date": "2023-07-15",
+        "location": "Grand Arena",
+        "city": "Madrid"
+    },
+    {
+        "id": 4,
+        "name": "Electronic Dance Night",
+        "image": "electronic-dance-night.jpg",
+        "hours": "22:00 - 04:00",
+        "date": "2023-07-25",
+        "location": "Club Electron",
+        "city": "Madrid"
+    },
+    {
+        "id": 9,
+        "name": "Fiesta de Reggae y Dub",
+        "image": "fiesta-reggae-dub.jpg",
+        "hours": "22:00 - 03:00",
+        "date": "2023-06-01",
+        "location": "Gruta 77",
+        "city": "Madrid"
+    }
+]

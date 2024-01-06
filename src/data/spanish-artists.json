@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "name": "Rosal\u00eda",
+        "genre": "Flamenco Pop",
+        "biography": "Rosal\u00eda Vila Tobella, a groundbreaking Spanish singer-songwriter, has revolutionized the Flamenco Pop genre with her unique blend of traditional flamenco and modern rhythms.",
+        "images": [
+            "rosalia1.jpg",
+            "/rosalia2.jpg"
+        ],
+        "bestSongs": [
+            "Malamente",
+            "Con Altura",
+            "Pienso en tu Mir\u00e1",
+            "Di Mi Nombre",
+            "A Pal\u00e9"
+        ],
+        "latestTour": {
+            "name": "El Mal Querer Tour",
+            "dates": [
+                {
+                    "city": "Barcelona",
+                    "date": "2020-06-01"
+                },
+                {
+                    "city": "Madrid",
+                    "date": "2020-06-05"
+                },
+                {
+                    "city": "Lisbon",
+                    "date": "2020-06-10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "name": "L\u00edrico En La Casa",
+        "genre": "Reggaeton",
+        "biography": "Dominican Republic's own L\u00edrico En La Casa is renowned for his dynamic reggaeton style, infusing Caribbean beats with urban sounds to create chart-topping hits.",
+        "images": [
+            "liricoenlacasa1.jpg",
+            "liricoenlacasa2.jpg"
+        ],
+        "bestSongs": [
+            "Marianela",
+            "Subete",
+            "El Motorcito",
+            "La Resbalosa",
+            "Dominican Playero"
+        ],
+        "latestTour": {
+            "name": "Caribbean Beats Tour",
+            "dates": [
+                {
+                    "city": "Santo Domingo",
+                    "date": "2020-07-01"
+                },
+                {
+                    "city": "San Juan",
+                    "date": "2020-07-06"
+                },
+                {
+                    "city": "Miami",
+                    "date": "2020-07-11"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "name": "Bad Bunny",
+        "genre": "Reggaeton, Trap",
+        "biography": "Bad Bunny, a Puerto Rican sensation, has taken the music world by storm with his innovative approach to Latin trap and reggaeton, blending streetwise rhythms with catchy lyrics.",
+        "images": [
+            "badbunny1.jpg",
+            "badbunny2.jpg"
+        ],
+        "bestSongs": [
+            "D\u00e1kiti",
+            "Safaera",
+            "Yo Perreo Sola",
+            "La Noche de Anoche",
+            "Te Bot\u00e9"
+        ],
+        "latestTour": {
+            "name": "X 100pre Tour",
+            "dates": [
+                {
+                    "city": "New York",
+                    "date": "2020-08-01"
+                },
+                {
+                    "city": "Los Angeles",
+                    "date": "2020-08-05"
+                },
+                {
+                    "city": "Chicago",
+                    "date": "2020-08-10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "name": "J Balvin",
+        "genre": "Reggaeton",
+        "biography": "J Balvin, the Colombian superstar, has become a global icon in the reggaeton scene, known for his energetic performances and collaborations with international artists.",
+        "images": [
+            "jbalvin1.jpg",
+            "jbalvin2.jpg"
+        ],
+        "bestSongs": [
+            "Mi Gente",
+            "Ay Vamos",
+            "Ginza",
+            "6 AM",
+            "Blanco"
+        ],
+        "latestTour": {
+            "name": "Vibras Tour",
+            "dates": [
+                {
+                    "city": "Bogot\u00e1",
+                    "date": "2020-09-01"
+                },
+                {
+                    "city": "Medell\u00edn",
+                    "date": "2020-09-05"
+                },
+                {
+                    "city": "Cali",
+                    "date": "2020-09-10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "name": "Shakira",
+        "genre": "Pop",
+        "biography": "Shakira, a Colombian-Lebanese singer, has achieved worldwide fame with her distinctive voice and belly dancing skills, making her one of the most recognizable figures in pop.",
+        "images": [
+            "shakira1.jpg",
+            "shakira2.jpg"
+        ],
+        "bestSongs": [
+            "Hips Don't Lie",
+            "Waka Waka",
+            "Chantaje",
+            "La Tortura",
+            "Whenever, Wherever"
+        ],
+        "latestTour": {
+            "name": "El Dorado World Tour",
+            "dates": [
+                {
+                    "city": "Paris",
+                    "date": "2020-10-01"
+                },
+                {
+                    "city": "London",
+                    "date": "2020-10-05"
+                },
+                {
+                    "city": "Berlin",
+                    "date": "2020-10-10"
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "name": "Juan Luis Guerra",
+        "genre": "Bachata, Merengue",
+        "biography": "Juan Luis Guerra, a Dominican legend in music, is celebrated for his contributions to bachata and merengue, blending traditional sounds with contemporary styles.",
+        "images": [
+            "juan-luis-guerra1.jpg",
+            "juan-luis-guerra2.jpg"
+        ],
+        "bestSongs": [
+            "Burbujas de Amor",
+            "Ojal\u00e1 que Llueva Caf\u00e9",
+            "Bachata en Fukuoka",
+            "La Bilirrubina",
+            "Kitipun"
+        ],
+        "latestTour": {
+            "name": "Literal Tour",
+            "dates": [
+                {
+                    "city": "Santo Domingo",
+                    "date": "2020-11-01"
+                },
+                {
+                    "city": "Puerto Rico",
+                    "date": "2020-11-05"
+                },
+                {
+                    "city": "Miami",
+                    "date": "2020-11-10"
+                }
+            ]
+        }
+    }
+]

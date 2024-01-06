@@ -19,7 +19,7 @@ export default function Page() {
         <h1 className="text-4xl font-bold mb-4">Welcome to Ritmos</h1>
         <p>
           At Ritmos, we are passionate about bringing the vibrant music scene of Madrid to your fingertips.
-          "Ritmos" is a Spanish word that translates to "Rhythms" in English, and it perfectly encapsulates the heartbeat of our city's music culture.
+          &quot;Ritmos&quot; is a Spanish word that translates to &quot;Rhythms&quot; in English, and it perfectly encapsulates the heartbeat of our city&apos;s music culture.
         </p>
       </div>
     {/* Contributor Section */}

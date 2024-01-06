@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/artists/artist-page.jsx", "src/app/ui/nav-links.jsx", "src/app/ui/artistCard.js", "src/app/ui/artist-link.jsx", "src/app/ui/free-events.jsx"],
   "exclude": ["node_modules"]
 }
