@@ -1,6 +1,6 @@
 // components/FreeEvents.js
 import React from 'react';
-import { Box, Container, Grid, Text, Link, Button } from '@chakra-ui/react';
+import { Box, Container, Grid, Text, Heading } from '@chakra-ui/react';
 
 
 
@@ -14,12 +14,12 @@ const FreeEvents = ({events}) => {
             <Box key={event.id} bg="white" p="6" rounded="md" shadow="md">
               <img
                 src={event.image}
-                alt={event.name}
+                alt={event.alt}
                 className="w-full h-40 object-cover mb-4 rounded-md"
               />
-              <Text fontSize="xl" fontWeight="bold" mb="2">
+              <Heading as="h3" fontSize="xl" fontWeight="bold" mb="2">
                 {event.name}
-              </Text>
+              </Heading>
               <Text color="gray.600">{event.time}</Text>
               <Text color="gray.600">{event.location}</Text>
 

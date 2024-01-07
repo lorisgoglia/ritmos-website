@@ -7,8 +7,8 @@ const eventsData = [
     time: '7:00 PM - 10:00 PM',
     location: 'City Hall Auditorium',
     image: '/concertNight.jpg',
-    price: '12',
-    description:'3',
+    price:"12",
+    alt:"Upcoming events:Concert Night",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const eventsData = [
     location: 'Park Square',
     image: '/festivalWeekend.jpg',
     price: '24',
-    description:'3',
+    alt:"Upcoming events: Festival Weekend",
   },
   {
     id: 3,
@@ -26,17 +26,17 @@ const eventsData = [
     location: 'Downtown Arena',
     image: '/liveBandPerformance.jpg',
     price: '15',
-    description:'3',
+    alt:"Upcoming events: Live Band Performance",
     
   },
   {
     id: 4,
-    name: 'Free Concert in the Park',
+    name: 'Concert in the Park',
     time: '2:00 PM - 5:00 PM',
     location: 'Central Park',
     image: '/freeConcertInPark.jpg',
     price: 'free',
-    description:'11',
+    alt:"Free events: Concert in the Park",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const eventsData = [
     location: 'Local Community Center',
     image: '/karaokeNight.jpg',
     price: 'free',
-    description:'2',
+    alt:"Free events: Karaoke Night",
   },
   {
     id: 6,
@@ -54,7 +54,7 @@ const eventsData = [
     location: 'City Music School',
     image: '/musicWorkshop.jpg',
     price: 'free',
-    description:'3',
+    alt:"Free events: Music Workshop: Jazz",
   },
 
   ];

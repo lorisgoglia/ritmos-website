@@ -21,10 +21,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Ritmos</title>
+      </head>
       <body className={inter.className}>
+      <header id="header" role="banner" aria-label="Site header">
       <Navbar/>
         <Providers>{children}</Providers>
-       
+       </header>
         </body>
     </html>
   )

@@ -13,6 +13,7 @@ const InputForm = () => {
   };
 
   return (
+   
     <Flex direction="column" align="center" justify="center" bg="" p="8" color="black">
       <Box mt="4" w="full" textAlign="center">
         {subscribed ? (
@@ -21,7 +22,7 @@ const InputForm = () => {
           </Text>
         ) : (
           <>
-          
+              
               <Heading fontSize="3xl" fontWeight="bold" mb="4">
                 Subscribe to our newsletter
               </Heading>
@@ -31,8 +32,14 @@ const InputForm = () => {
            
             <form onSubmit={handleSubmit}>
               <Flex>
-                <Input type="email" placeholder="Enter your email" variant="filled" mr="2" isRequired name="email" />
-                <Button type="submit" colorScheme="blue">
+                
+                <Input type="email" placeholder="Enter your email" aria-label="Enter your email" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
+                <Button 
+                  type="submit" 
+                  color="#ffffff"
+                  bgColor="#2b74b9"
+                  
+                  >
                   Subscribe
                 </Button>
               </Flex>
@@ -41,6 +48,7 @@ const InputForm = () => {
         )}
       </Box>
     </Flex>
+    
   );
 };
 

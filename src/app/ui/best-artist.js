@@ -9,7 +9,7 @@ import artists from '../../data/spanish-artists.json';
   export default function BestArtists() {
     return (
         <>
-        <h1 className='text-4xl font-bold text-black m-20 z-10 ' >Best of the moment:</h1>
+        <h2 className='text-4xl font-bold text-black m-20 z-10 ' >Best of the moment:</h2>
         <Stack spacing='4' m={20} w='50%'>
 
             {artists.map(artist => (

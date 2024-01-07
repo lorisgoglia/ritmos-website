@@ -35,6 +35,7 @@ export default function Home() {
           layout="fill"
           objectFit="cover"
           alt="A group of people having fun in a music event."
+          role="img"
         
         />
         <Flex
@@ -58,7 +59,7 @@ export default function Home() {
               mt="4"
               cursor="pointer"
               _hover={{ bgColor: '#125580' }}
-            
+              role="button"
              >
             Find events
           </Button>
