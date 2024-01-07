@@ -11,6 +11,7 @@ export default function EventsFree(){
 
           {freeEvents.map((event) => (
               <Card
+                key={event.key} 
                 display="flex" // Imposta la Card come un flex container
                 flexDirection={{ base: 'column', sm: 'row' }} // Imposta la direzione del flex
                 justifyContent="space-between" // Spazia i componenti

@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "key": 1,
         "name": "Summer Jazz Festival",
         "image": "summer-jazz-festival.jpg",
         "hours": "19:00 - 23:00",
@@ -10,7 +10,7 @@
     },
     
     {
-        "id": 3,
+        "key": 3,
         "name": "Classical Music Evening",
         "image": "classical-music-evening.jpg",
         "hours": "18:00 - 22:00",
@@ -20,7 +20,7 @@
     },
     
     {
-        "id": 5,
+        "key": 5,
         "name": "Folk Music Festival",
         "image": "folk-music-festival.jpg",
         "hours": "16:00 - 20:00",
@@ -29,7 +29,7 @@
         "city": "Madrid"
     },
     {
-        "id": 7,
+        "key": 7,
         "name": "Noche de Salsa y Ritmos Latinos",
         "image": "noche-salsa-ritmos-latinos.jpg",
         "hours": "20:00 - 01:00",
@@ -38,7 +38,7 @@
         "city": "Madrid"
     },
     {
-        "id": 8,
+        "key": 8,
         "name": "Espectáculo de Música Folk",
         "image": "espectaculo-musica-folk.jpg",
         "hours": "16:00 - 18:00",
@@ -48,7 +48,7 @@
     },
     
     {
-        "id": 10,
+        "key": 10,
         "name": "Velada de Blues y Jazz",
         "image": "velada-blues-jazz.jpg",
         "hours": "21:00 - 00:00",

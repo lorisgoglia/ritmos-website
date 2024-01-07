@@ -1,6 +1,6 @@
 [
     {
-        "id": 6,
+        "key": 6,
         "name": "Recital de Piano Clásico",
         "image": "recital-piano-clasico.jpg",
         "hours": "17:00 - 19:00",
@@ -9,7 +9,7 @@
         "city": "Madrid"
     },
     {
-        "id": 2,
+        "key": 2,
         "name": "Rock Mania Concert",
         "image": "rock-mania-concert.jpg",
         "hours": "20:00 - 02:00",
@@ -18,7 +18,7 @@
         "city": "Madrid"
     },
     {
-        "id": 4,
+        "key": 4,
         "name": "Electronic Dance Night",
         "image": "electronic-dance-night.jpg",
         "hours": "22:00 - 04:00",
@@ -27,7 +27,7 @@
         "city": "Madrid"
     },
     {
-        "id": 9,
+        "key": 9,
         "name": "Fiesta de Reggae y Dub",
         "image": "fiesta-reggae-dub.jpg",
         "hours": "22:00 - 03:00",

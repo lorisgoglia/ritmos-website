@@ -1,52 +1,90 @@
-'use client'
-
-import Image from 'next/image'
-import UpcomingEvents from '../components/upcomingEvents'
-import FreeEvents from '../components/freeEvents'
+'use client';
+import { Flex, Button, Heading } from '@chakra-ui/react';
+import Image from 'next/image';
+import UpcomingEvents from '../components/upcomingEvents';
+import FreeEvents from '../components/freeEvents';
+import InputForm from '../components/inputForm';
+import eventsData from './events/eventData'; 
+import NextLink from 'next/link';
 
 export default function Home() {
-  const allUpcomingEventsLink = '/events'; // Replace with your actual link
-  const allFreeEventsLink = '/events'; 
+  const upcomingEvents = eventsData.filter(event => event.price !== 'free');
+  const freeEvents = eventsData.filter(event => event.price === 'free');
+
+
   return (
-    <><main className="relative items-center overflow-hidden">
-
-      <div className="relative w-full h-[80vh] -z-20 avl ">
-
+    <main className="relative items-center">
+      <Flex
+        className="relative w-full h-[80vh] z-40 avl"
+        position="relative"
+        align="center"
+        justify="center"
+        overflow="hidden"
+      >
         {/* Hero Images */}
-        <div className="absolute inset-0 flex items-center justify-center bg-black opacity-40 z-20"></div>
+      <Flex
+        className="absolute inset-0 bg-black opacity-40 z-20"
+        position="absolute"
+        inset="0"
+        align="center"
+        justify="center"
+        
+      ></Flex>
         <Image
           src="/hero-home.jpg"
           layout="fill"
           objectFit="cover"
-          alt="A group of people having fun in a music event." />
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-30">
-          <h1 className="text-4xl font-bold text-white mb-4 z-10">
+          alt="A group of people having fun in a music event."
+        
+        />
+        <Flex
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-40"
+          position="absolute"
+          bottom="0"
+          left="50%"
+          transform="translate(-50%, -50%)"
+          align="center"
+          justify="center"
+          direction="column"
+        >
+          <Heading className="text-4xl font-bold text-white mb-4 z-40">
             Discover the best Music events in your area and online
-          </h1>
-          <button className='px-6 py-3 text-white bg-blue-500 border-none rounded-md cursor-pointer z-10'>
+          </Heading>
+          <NextLink href={`/events`} passHref>
+          <Button
+              as="a"
+              bgColor="#196cac"
+              color="white"
+              mt="4"
+              cursor="pointer"
+              _hover={{ bgColor: '#125580' }}
+            
+             >
             Find events
-          </button>
-        </div>
-
-      </div>
-      <div className='pt-20'>
+          </Button>
+          </NextLink>
+        </Flex>
+      </Flex>
+      <Flex className="pt-20" direction="column" align="center">
         {/* Upcoming Events Section */}
-        <div className='mb-10 px-24'>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Upcoming Events</h2>
-          <UpcomingEvents allEventsLink={allUpcomingEventsLink} />
-
-        </div>
+        <Flex className="mb-10 px-24" direction="column" align="center">
+          <Heading className="text-3xl font-bold text-gray-800 mb-6">Upcoming Events</Heading>
+          <UpcomingEvents events={upcomingEvents}/>
+        </Flex>
         {/* Free Events Section */}
-        <div className='mb-10 px-24'>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Free Events</h2>
-          <FreeEvents allEventsLink={allFreeEventsLink} />
-        </div>
-      </div>
+        <Flex className="mb-10 px-24" direction="column" align="center">
+          <Heading className="text-3xl font-bold text-gray-800 mb-6">Free Events</Heading>
+          <FreeEvents  events={freeEvents}/>
+        </Flex>
+      </Flex>
 
-
-
+       {/* suscription */}
+       <Flex direction="column" align="center">
+         <InputForm />
+        </Flex>
     </main>
     
-    </>
-  )
+
+    
+  );
 }

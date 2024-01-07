@@ -1,7 +1,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import { usePathname } from 'next/navigation';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import {
@@ -32,7 +32,7 @@ export default function Page() {
 
     const artistId = '1';
     const validArtistId = artistId || '0'; 
-    const artist = artists.find(artist => artist.id === parseInt(validArtistId,10));
+    const artist = artists.find(artist => artist.key === parseInt(validArtistId,10));
 
     if (!artist) {
       return <div>{validArtistId}</div>;

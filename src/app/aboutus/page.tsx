@@ -1,60 +1,80 @@
-import React from 'react';
-import Image from 'next/image';
+'use client';
 
-export default function Page() {
+import React from 'react';
+import { Flex, Box, Text, Heading, Image, Input, Button } from '@chakra-ui/react';
+import InputForm from '../../components/inputForm'
+
+
+const Page: React.FC = () => {
   return (
-    <div className="flex flex-col items-center">
+    <Flex direction="column" align="center">
       {/* Hero Section with Image */}
-      <div className="relative h-64 w-full ">
+      <Box position="relative" h="40vh" w="full">
         <Image
           src="/concertNight.jpg"  
-          layout="fill"
           objectFit="cover"
           alt="About Us Hero Image"
+          w="full"
+          h="full"
         />
-      </div>
+      </Box>
 
       {/* Text Section */}
-      <div className="container mx-auto p-8 text-black text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Ritmos</h1>
-        <p>
+      <Box textAlign="center" color="white" p="8" bg="black" w="full">
+        <Heading fontSize="3xl" fontWeight="bold" mb="4">
+          Welcome to Ritmos
+        </Heading>
+        <Text>
           At Ritmos, we are passionate about bringing the vibrant music scene of Madrid to your fingertips.
           &quot;Ritmos&quot; is a Spanish word that translates to &quot;Rhythms&quot; in English, and it perfectly encapsulates the heartbeat of our city&apos;s music culture.
-        </p>
-      </div>
-    {/* Contributor Section */}
-    <div className="container mx-auto p-8 text-center">
-          <h2 className="text-2xl font-bold mb-4">Meet Our Contributors</h2>
-          <div className="flex flex-wrap justify-center">
-            {/* Contributor 1 */}
-            <div className="m-4">
-              <Image
-                src="/Loris.png"  // Replace with the actual path to the contributor's picture
-                width={100}  // Set the desired width
-                height={100} // Set the desired height
-                objectFit="cover"
-                alt="Contributor 1"
-                className="rounded-full"
-              />
-              <p className="mt-2">Loris</p>
-            </div>
+        </Text>
+        {/* Continue with the rest of your content */}
+      </Box>
 
-            {/* Contributor 2 */}
-            <div className="m-4">
-              <Image
-                src="/Xiaolin.png"  // Replace with the actual path to the contributor's picture
-                width={100}  // Set the desired width
-                height={100} // Set the desired height
-                objectFit="cover"
-                alt="Contributor 2"
-                className="rounded-full"
-              />
-              <p className="mt-2">Xiaolin</p>
-            </div>
-            
-        </div>
-      </div>
+      {/* Contributor Section */}
+      <Box mt="8" p="8" textAlign="center" w="full">
+        <Heading fontSize="3xl" fontWeight="bold" mb="4" color="black">
+          Meet Our Contributors
+        </Heading>
 
-    </div>
+        <Flex justify="center">
+          {/* Contributor 1 */}
+          <Box m="4" width="100%" textAlign="center">
+            <Image
+              src="/Xiaolin.png"  
+              objectFit="cover"
+              alt="Contributor 1 Xiaolin"
+              borderRadius="full"
+              mx="auto"
+            />
+            <Text mt="2" fontWeight="bold" color="black">
+              Xiaolin
+            </Text>
+          </Box>
+
+          {/* Contributor 2 */}
+          <Box m="4" width="100%" textAlign="center">
+            <Image
+              src="/Loris.png"  
+              objectFit="cover"
+              alt="Contributor 2 Loris"
+              borderRadius="full"
+              mx="auto"
+            />
+            <Text mt="2" fontWeight="bold" color="black">
+              Loris
+            </Text>
+          </Box>
+        </Flex>
+
+        {/* suscription */}
+        <Flex direction="column" align="center">
+         <InputForm />
+        </Flex>
+
+      </Box>
+    </Flex>
   );
-}
+};
+
+export default Page;

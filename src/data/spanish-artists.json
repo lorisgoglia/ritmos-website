@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "key": 1,
         "name": "Rosal\u00eda",
         "genre": "Flamenco Pop",
         "biography": "Rosal\u00eda Vila Tobella, a groundbreaking Spanish singer-songwriter, has revolutionized the Flamenco Pop genre with her unique blend of traditional flamenco and modern rhythms.",
@@ -34,7 +34,7 @@
         }
     },
     {
-        "id": 2,
+        "key": 2,
         "name": "L\u00edrico En La Casa",
         "genre": "Reggaeton",
         "biography": "Dominican Republic's own L\u00edrico En La Casa is renowned for his dynamic reggaeton style, infusing Caribbean beats with urban sounds to create chart-topping hits.",
@@ -68,7 +68,7 @@
         }
     },
     {
-        "id": 3,
+        "key": 3,
         "name": "Bad Bunny",
         "genre": "Reggaeton, Trap",
         "biography": "Bad Bunny, a Puerto Rican sensation, has taken the music world by storm with his innovative approach to Latin trap and reggaeton, blending streetwise rhythms with catchy lyrics.",
@@ -102,7 +102,7 @@
         }
     },
     {
-        "id": 4,
+        "key": 4,
         "name": "J Balvin",
         "genre": "Reggaeton",
         "biography": "J Balvin, the Colombian superstar, has become a global icon in the reggaeton scene, known for his energetic performances and collaborations with international artists.",
@@ -136,7 +136,7 @@
         }
     },
     {
-        "id": 5,
+        "key": 5,
         "name": "Shakira",
         "genre": "Pop",
         "biography": "Shakira, a Colombian-Lebanese singer, has achieved worldwide fame with her distinctive voice and belly dancing skills, making her one of the most recognizable figures in pop.",
@@ -170,7 +170,7 @@
         }
     },
     {
-        "id": 6,
+        "key": 6,
         "name": "Juan Luis Guerra",
         "genre": "Bachata, Merengue",
         "biography": "Juan Luis Guerra, a Dominican legend in music, is celebrated for his contributions to bachata and merengue, blending traditional sounds with contemporary styles.",
