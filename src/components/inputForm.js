@@ -30,7 +30,16 @@ const InputForm = () => {
           <form onSubmit={handleSubmit}>
           <Flex>
             
-            <Input type="email" title="Email example: ritmos@gmail.com" placeholder="Enter your email" aria-label="Enter your email to subscribe" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
+            <Input 
+            type="email" 
+            title="Email example: ritmos@gmail.com" 
+            placeholder="Enter your email" 
+            aria-label="Enter your email to subscribe" 
+            variant="filled" mr="2" 
+            isRequired name="Enter your email" 
+            autocomplete="email" 
+            aria-required="true"/>
+
             <Button 
               type="submit" 
               color="#ffffff"
@@ -38,6 +47,7 @@ const InputForm = () => {
               aria-label='Click the button to subscribe'
               _hover={{ bgColor: '#125580' }}
               isDisabled="true"
+              
               >
               Subscribe
             </Button>
@@ -70,6 +80,7 @@ const InputForm = () => {
                   aria-label='Click the button to subscribe'
                   _hover={{ bgColor: '#125580' }}
                   focusBorderColor="black"
+                  disabled={subscribed || !email} 
                   
                   >
                   Subscribe
