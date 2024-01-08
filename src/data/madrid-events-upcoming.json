@@ -6,7 +6,9 @@
         "hours": "17:00 - 19:00",
         "date": "2023-05-15",
         "location": "Teatro Real",
-        "city": "Madrid"
+        "city": "Madrid",
+        "lang": "es"
+
     },
     {
         "key": 2,
@@ -15,7 +17,9 @@
         "hours": "20:00 - 02:00",
         "date": "2023-07-15",
         "location": "Grand Arena",
-        "city": "Madrid"
+        "city": "Madrid",
+        "lang": "en"
+
     },
     {
         "key": 4,
@@ -24,7 +28,9 @@
         "hours": "22:00 - 04:00",
         "date": "2023-07-25",
         "location": "Club Electron",
-        "city": "Madrid"
+        "city": "Madrid",
+        "lang": "en"
+
     },
     {
         "key": 9,
@@ -33,6 +39,8 @@
         "hours": "22:00 - 03:00",
         "date": "2023-06-01",
         "location": "Gruta 77",
-        "city": "Madrid"
+        "city": "Madrid",
+        "lang": "es"
+
     }
 ]

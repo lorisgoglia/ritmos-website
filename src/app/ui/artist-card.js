@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, CardHeader, CardBody, CardFooter, Heading, Stack, Text, Button, Image } from '@chakra-ui/react'
+import { Card, CardBody, Heading, Stack, Text, Button, Image } from '@chakra-ui/react'
 import ArtistLink from './artist-link'
 
 
@@ -35,7 +35,7 @@ export default function ArtistCard({key,name,genre,img}){
 
             </Stack>
 
-            <ArtistLink artistId={key} ml={40}>
+            <ArtistLink minH={24} minW={24} artistId={key} ml={40}>
 
             </ArtistLink>
             

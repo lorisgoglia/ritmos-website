@@ -24,7 +24,7 @@ export default function EventsFree(){
           
                 <Stack className='!flex-row'>
                   <CardBody>
-                    <Heading size='md'>{event.name}</Heading>
+                    <Heading size='md' lang={event.lang}>{event.name}</Heading>
                     <Text py='2'>{event.genre}</Text>
                   </CardBody>
                 </Stack>
