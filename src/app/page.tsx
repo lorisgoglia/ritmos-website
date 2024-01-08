@@ -34,7 +34,7 @@ export default function Home() {
           src="/hero-home.jpg"
           layout="fill"
           objectFit="cover"
-          alt="A group of people having fun in a music event."
+          alt="A group of people at a music event held up their phones to take photo of the colorful lights and falling confetti."
           role="img"
         
         />
@@ -60,7 +60,7 @@ export default function Home() {
               cursor="pointer"
               _hover={{ bgColor: '#125580' }}
               role="link"
-              aria-label="Find events"
+              aria-label="Find events in the events page"
              >
             Find events
           </Button>

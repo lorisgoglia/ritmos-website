@@ -33,12 +33,13 @@ const InputForm = () => {
             <form onSubmit={handleSubmit}>
               <Flex>
                 
-                <Input type="email" title="Enter your email" placeholder="Enter your email" aria-label="Enter your email" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
+                <Input type="email" title="Email example: ritmos@gmail.com" placeholder="Enter your email" aria-label="Enter your email to subscribe" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
                 <Button 
                   type="submit" 
                   color="#ffffff"
                   bgColor="#2b74b9"
-                  aria-label='Subscribe'
+                  aria-label='Click the button to subscribe'
+                  _hover={{ bgColor: '#125580' }}
                   
                   >
                   Subscribe

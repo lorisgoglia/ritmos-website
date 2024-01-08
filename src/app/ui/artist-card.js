@@ -14,7 +14,8 @@ export default function ArtistCard({key,name,genre,img}){
             display="flex" // Imposta la Card come un flex container
             flexDirection={{ base: 'column', sm: 'row' }} // Imposta la direzione del flex
             alignItems="center" // Allinea verticalmente i componenti
-            overflow='hidden'
+            // overflow='hidden'
+            justifyContent="space-between"
             variant='outline'
             pr='16px'
           >
