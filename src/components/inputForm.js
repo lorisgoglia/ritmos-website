@@ -13,7 +13,7 @@ const InputForm = () => {
   };
 
   return (
-    <footer>
+    <footer role='form'>
     <Flex direction="column" align="center" justify="center" bg="" p="8" color="black">
       <Box mt="4" w="full" textAlign="center">
         {subscribed ? (

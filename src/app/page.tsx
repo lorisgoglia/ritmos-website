@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <main className="relative items-center">
+    <main className="relative items-center" role='main'>
       <Flex
         className="relative w-full h-[80vh] z-40 avl"
         position="relative"
@@ -36,6 +36,7 @@ export default function Home() {
           objectFit="cover"
           alt="A group of people at a music event held up their phones to take photo of the colorful lights and falling confetti."
           role="img"
+          className='filter brightness-50'
         
         />
         <Flex
@@ -69,12 +70,12 @@ export default function Home() {
       </Flex>
       <Flex className="pt-20" direction="column" align="center">
         {/* Upcoming Events Section */}
-        <Flex className="mb-10 px-24" direction="column" align="center">
+        <Flex className="mb-10 px-24" direction="column" align="center" role='region'>
           <Heading className="text-3xl font-bold text-gray-800 mb-6">Upcoming Events</Heading>
           <UpcomingEvents events={upcomingEvents}/>
         </Flex>
         {/* Free Events Section */}
-        <Flex className="mb-10 px-24" direction="column" align="center">
+        <Flex className="mb-10 px-24" direction="column" align="center" role='region'>
           <Heading className="text-3xl font-bold text-gray-800 mb-6">Free Events</Heading>
           <FreeEvents  events={freeEvents}/>
         </Flex>
