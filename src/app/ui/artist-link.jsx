@@ -13,6 +13,12 @@ import { Flex, Text } from '@chakra-ui/react';
 export default function ArtistLink(artistId) {
   const pathname = usePathname();
 
+  const id = artistId.toString();
+
+  const handleClick = () => {
+    localStorage.setItem('artistId', '1');
+  }
+
   return (
     <>
       
@@ -21,6 +27,8 @@ export default function ArtistLink(artistId) {
             key={artistId}
             href='/artist-page'
             passHref
+            onClick={handleClick}
+
             >
               <Flex
                as="a"

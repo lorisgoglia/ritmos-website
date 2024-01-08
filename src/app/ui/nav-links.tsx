@@ -5,7 +5,6 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import {Flex} from '@chakra-ui/react';
 
 
 // Map of links to display in the side navigation.

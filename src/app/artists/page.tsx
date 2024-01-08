@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import React from 'react';
-import { Card, CardHeader, CardBody, CardFooter, Heading, Stack, Text, Button } from '@chakra-ui/react';
 import BestArtists from '../ui/best-artist'
 
 export default function Page() {
@@ -17,6 +16,7 @@ export default function Page() {
           layout="fill"
           objectFit="cover"
           alt="A musical band of 4 people on a stage in front of a crowd."
+          className='filter brightness-60'
         />
         <div className="absolute bottom-5 left-5  text-center z-30">
           <h1 className="text-8xl font-bold text-white mb-4 z-10">

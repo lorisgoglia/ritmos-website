@@ -38,7 +38,6 @@ const InputForm = () => {
               aria-label='Click the button to subscribe'
               _hover={{ bgColor: '#125580' }}
               isDisabled="true"
-              
               >
               Subscribe
             </Button>
@@ -70,6 +69,7 @@ const InputForm = () => {
                   bgColor="#2b74b9"
                   aria-label='Click the button to subscribe'
                   _hover={{ bgColor: '#125580' }}
+                  focusBorderColor="black"
                   
                   >
                   Subscribe

@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react';
-import { Card, CardHeader, CardBody, CardFooter, Heading, Stack, Text, Button, Box } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import {
   Accordion,
   AccordionItem,

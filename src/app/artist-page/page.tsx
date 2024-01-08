@@ -1,6 +1,7 @@
+'use client'
 
 import Image from 'next/image';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 // import { useParams } from 'react-router-dom';
 import { usePathname } from 'next/navigation';
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
@@ -30,7 +31,14 @@ import  artists from '../../data/spanish-artists.json';
 
 export default function Page() {
 
-    const artistId = '1';
+    const [artistId, setArtistId] = useState('');
+
+    useEffect(() => {
+      const storedArtistId = localStorage.getItem('artistId');
+      if (storedArtistId) {
+        setArtistId(storedArtistId);
+      }
+    }, []);
     const validArtistId = artistId || '0'; 
     const artist = artists.find(artist => artist.key === parseInt(validArtistId,10));
 
@@ -104,12 +112,7 @@ export default function Page() {
                       </Tr>
                     ))}
                   </Tbody>
-                  <Tfoot>
-                    <Tr>
-                      <Th>City</Th>
-                      <Th>Date</Th>
-                    </Tr>
-                  </Tfoot>
+                
                 </Table>
               </TableContainer>
             </TabPanel>

@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, CardBody, Heading, Stack, Text, Button, Image } from '@chakra-ui/react'
+import { Card, CardBody, Heading, Stack, Text, Image } from '@chakra-ui/react'
 import ArtistLink from './artist-link'
 
 
@@ -11,10 +11,9 @@ export default function ArtistCard({key,name,genre,img}){
 
       <>
           <Card
-            display="flex" // Imposta la Card come un flex container
-            flexDirection={{ base: 'column', sm: 'row' }} // Imposta la direzione del flex
-            alignItems="center" // Allinea verticalmente i componenti
-            // overflow='hidden'
+            display="flex" 
+            flexDirection={{ base: 'column', sm: 'row' }} 
+            alignItems="center" 
             justifyContent="space-between"
             variant='outline'
             pr='16px'
@@ -33,19 +32,10 @@ export default function ArtistCard({key,name,genre,img}){
                   {genre}
                 </Text>
               </CardBody>
-
             </Stack>
 
-            <ArtistLink minH={24} minW={24} artistId={key} ml={40}>
-
-            </ArtistLink>
-            
-
-             
+            <ArtistLink minH={24} minW={24} artistId={key} ml={40}> </ArtistLink>
           </Card>
-      
-          
-      
       </>
     )
 }
