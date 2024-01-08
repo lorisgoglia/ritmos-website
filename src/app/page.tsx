@@ -59,7 +59,8 @@ export default function Home() {
               mt="4"
               cursor="pointer"
               _hover={{ bgColor: '#125580' }}
-              role="button"
+              role="link"
+              aria-label="Find events"
              >
             Find events
           </Button>

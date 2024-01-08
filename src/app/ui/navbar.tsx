@@ -8,7 +8,7 @@ import NavLinks from './nav-links';
 
 export default function Navbar() {
   return (
-    <header id="header" role="banner" aria-label="Site header">
+    
     <nav className="bg-white shadow-md py-2 z-40" aria-label='Navigation'> {/* Add background, shadow, and padding */}
       <div className="container mx-auto px-4 flex justify-between items-center"> {/* Container for centering and spacing */}
         {/* Logo and Website Name */}
@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="flex items-center">
          
           <Link href="/">
-              <Image src="/ritmos-logo.png" width={100} height={76} alt="Logo" />
+              <Image src="/ritmos-logo.png" width={100} height={76} alt="Ritmos: Your Gateway to Madrid's Vibrant Music Culture" />
               <span className="ml-2 text-xl font-bold">Ritmos</span> {/* Margin and styling for the text */}
             
           </Link>
@@ -26,7 +26,7 @@ export default function Navbar() {
         <NavLinks />
       </div>
     </nav>
-    </header>
+    
   );
 };
 

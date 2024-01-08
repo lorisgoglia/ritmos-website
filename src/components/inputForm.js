@@ -13,7 +13,7 @@ const InputForm = () => {
   };
 
   return (
-   
+    <footer>
     <Flex direction="column" align="center" justify="center" bg="" p="8" color="black">
       <Box mt="4" w="full" textAlign="center">
         {subscribed ? (
@@ -33,11 +33,12 @@ const InputForm = () => {
             <form onSubmit={handleSubmit}>
               <Flex>
                 
-                <Input type="email" placeholder="Enter your email" aria-label="Enter your email" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
+                <Input type="email" title="Enter your email" placeholder="Enter your email" aria-label="Enter your email" variant="filled" mr="2" isRequired name="Enter your email" autocomplete="email" aria-required="true"/>
                 <Button 
                   type="submit" 
                   color="#ffffff"
                   bgColor="#2b74b9"
+                  aria-label='Subscribe'
                   
                   >
                   Subscribe
@@ -48,7 +49,7 @@ const InputForm = () => {
         )}
       </Box>
     </Flex>
-    
+    </footer>
   );
 };
 
