@@ -13,17 +13,19 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center"> {/* Container for centering and spacing */}
         {/* Logo and Website Name */}
         
-        <div className="flex items-center">
+        <div className="flex items-center ml-10">
          
           <Link href="/">
               <Image src="/ritmos-logo.png" width={100} height={76} alt="Ritmos: Your Gateway to Madrid's Vibrant Music Culture" />
-              <span className="ml-2 text-xl font-bold">Ritmos</span> {/* Margin and styling for the text */}
             
           </Link>
+
+          <span className="ml-2 text-xl font-bold">Ritmos</span> {/* Margin and styling for the text */}
        
         </div>
-        
+        <div className='flex md:justify-end space-x-20 mr-20'>
         <NavLinks />
+        </div>
       </div>
     </nav>
     

@@ -5,7 +5,7 @@ import ArtistLink from './artist-link'
 
 
 
-export default function ArtistCard({key,name,genre,img}){
+export default function ArtistCard({id,name,genre,img}){
 
     return(
 
@@ -34,7 +34,7 @@ export default function ArtistCard({key,name,genre,img}){
               </CardBody>
             </Stack>
 
-            <ArtistLink minH={24} minW={24} artistId={key} ml={40}> </ArtistLink>
+            <ArtistLink  artistId={id} > </ArtistLink>
           </Card>
       </>
     )

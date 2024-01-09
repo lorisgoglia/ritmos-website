@@ -40,7 +40,7 @@ export default function Page() {
       }
     }, []);
     const validArtistId = artistId || '0'; 
-    const artist = artists.find(artist => artist.key === parseInt(validArtistId,10));
+    const artist = artists.find(artist => artist.key === validArtistId);
 
     if (!artist) {
       return <div>{validArtistId}</div>;

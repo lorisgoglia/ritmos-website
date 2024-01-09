@@ -10,13 +10,13 @@ import { Flex, Text } from '@chakra-ui/react';
 // Depending on the size of the application, this would be stored in a database.
 
 
-export default function ArtistLink(artistId) {
+export default function ArtistLink({artistId, children}) {
   const pathname = usePathname();
 
-  const id = artistId.toString();
+ console.log("check ", artistId)
 
   const handleClick = () => {
-    localStorage.setItem('artistId', '1');
+    localStorage.setItem('artistId', artistId);
   }
 
   return (

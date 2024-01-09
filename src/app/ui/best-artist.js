@@ -13,7 +13,7 @@ import artists from '../../data/spanish-artists.json';
         <Stack spacing='4' m={20} w='50%'>
 
             {artists.map(artist => (
-                <ArtistCard key={artist.key} name={artist.name} genre={artist.genre} img={artist.images[0]}/>
+                <ArtistCard id={artist.key} name={artist.name} genre={artist.genre} img={artist.images[0]}/>
             ))}
         </Stack>
         </>
